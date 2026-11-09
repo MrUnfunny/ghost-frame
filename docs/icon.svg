@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#1E1A26"/>
+      <stop offset="1" stop-color="#0C0B10"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="32" x2="0" y2="67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F6C27A"/>
+      <stop offset="1" stop-color="#E5806C"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="67" x2="0" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9C5476"/>
+      <stop offset="1" stop-color="#5C3560"/>
+    </linearGradient>
+  </defs>
+  <rect width="108" height="108" fill="url(#bg)"/>
+  <!-- your frame: a sunset -->
+  <path d="M40,67 V48 A16,16 0 0 1 72,48 V67 Z" fill="url(#sky)"/>
+  <path d="M56,67 m-8.5,0 a8.5,8.5 0 0 1 17,0 Z" fill="#FFF1D6"/>
+  <path d="M40,67 H72 V78 H40 Z" fill="url(#sea)"/>
+  <path d="M50,70.5 H62 M52.5,73.5 H59.5" stroke="#FFF1D6" stroke-opacity="0.55" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- the ghost frame, offset -->
+  <path d="M34,72 V42 A16,16 0 0 1 66,42 V72 Z" fill="#F4ECE1" fill-opacity="0.10" stroke="#F4ECE1" stroke-opacity="0.9" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>

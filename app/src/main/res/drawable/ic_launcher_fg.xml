@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- your frame: a sunset -->
+    <path android:pathData="M40,67 V48 A16,16 0 0 1 72,48 V67 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="32" android:endX="0" android:endY="67">
+                <item android:offset="0" android:color="#FFF6C27A" />
+                <item android:offset="1" android:color="#FFE5806C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#FFFFF1D6" android:pathData="M47.5,67 A8.5,8.5 0 0 1 64.5,67 Z" />
+    <path android:pathData="M40,67 H72 V78 H40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="67" android:endX="0" android:endY="78">
+                <item android:offset="0" android:color="#FF9C5476" />
+                <item android:offset="1" android:color="#FF5C3560" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:pathData="M50,70.5 H62 M52.5,73.5 H59.5" android:strokeColor="#FFFFF1D6" android:strokeAlpha="0.55"
+        android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <!-- the ghost frame, offset -->
+    <path android:pathData="M34,72 V42 A16,16 0 0 1 66,42 V72 Z"
+        android:fillColor="#FFF4ECE1" android:fillAlpha="0.10"
+        android:strokeColor="#FFF4ECE1" android:strokeAlpha="0.9" android:strokeWidth="1.6" android:strokeLineJoin="round" />
+</vector>
